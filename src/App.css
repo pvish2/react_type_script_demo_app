@@ -1,0 +1,138 @@
+.App {
+  text-align: left;
+  width:100%;
+  align-items: left
+}
+
+.App-logo {
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #09d3ac;
+}
+
+
+.parentDiv{
+  padding: 20px;
+}
+
+.addDiv{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.existingDiv{
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+      -webkit-appearance: none; 
+      margin: 0; 
+}
+
+.button{
+  background-color: #B8B8B8	;
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  margin: 4px 2px;
+  cursor: pointer;
+  height:35px;
+  width: 100px;
+}
+
+.errorDiv{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color:red;
+}
+
+.StandardTable {
+  border: 1px solid #656565;
+  -moz-border-radius: 0px;
+  -webkit-border-radius: 0px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  margin-bottom: 15px;
+  border-spacing: 0;
+}
+.StandardTable thead {
+  border: 1px solid #dddddd;
+  border-radius: 0px;
+  -moz-border-radius: 0px;
+  border-radius: 5px;
+  background-color: lightgray;
+  text-align: center;
+  width : "100%";
+
+}
+.StandardTable thead th{
+  border: 1px solid #dddddd;
+  background: lightgray; 
+  text-align: center;
+  width : "25%";
+  padding: 10px;
+}
+.StandardTable tbody {
+  border: 1px solid #dddddd;
+}
+.StandardTable tbody tr{
+  border: 1px solid #dddddd;
+  text-align: center;
+  width : "100%";
+  padding: 10px;
+
+}
+.StandardTable tbody td{
+  border: 1px solid #dddddd;
+  text-align: center;
+  width : "25%";
+  padding: 10px;
+
+}
+
+.StandardTable thead th:first-of-type{
+  border-top-left-radius: 0px; 
+}
+
+.StandardTable thead th:last-of-type{
+  border-top-right-radius: 0px; 
+}
+
+.label {
+  display: block;
+  float: left;
+  white-space: pre-line;
+}
+
+.input{
+  margin-top: 5px;
+  height:40px;
+  width:100%;
+  border-color: #B8B8B8	;  
+  border-style: solid;
+  padding-left: 5px;
+}
+
+.inputDiv{
+  margin-bottom: 10px;
+  margin-left: 0px;
+  width: 40%;
+}

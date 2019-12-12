@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App should render my app 1`] = `
+Array [
+  <div
+    className="App"
+  >
+    <div
+      className="parentDiv"
+    >
+      <h2>
+        Credit Card System
+      </h2>
+      <h4
+        className="addDiv"
+      >
+         Add
+      </h4>
+      <CreditCardForm
+        cardNumber="number"
+        limit={0}
+        name="string"
+        refreshCallback={[Function]}
+      />
+      <div />
+      <h4
+        className="existingDiv"
+      >
+        Existing Cards
+      </h4>
+      <Cards
+        cards={Array []}
+      />
+    </div>
+  </div>,
+]
+`;

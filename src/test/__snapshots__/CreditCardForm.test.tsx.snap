@@ -1,0 +1,72 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Credit Card Form should render form 1`] = `
+Array [
+  <div>
+    <form
+      id="form1"
+      noValidate={true}
+      onSubmit={[Function]}
+    >
+      <div
+        className="inputDiv"
+      >
+        <label
+          className="label"
+        >
+          Name
+        </label>
+        <br />
+        <input
+          className="input"
+          id="name"
+          onChange={[Function]}
+          required={true}
+          type="text"
+        />
+      </div>
+      <div
+        className="inputDiv"
+      >
+        <label
+          className="label"
+        >
+          Card Number
+        </label>
+        <br />
+        <input
+          className="input"
+          id="cardNumber"
+          onChange={[Function]}
+          required={true}
+          type="number"
+        />
+      </div>
+      <div
+        className="inputDiv"
+      >
+        <label
+          className="label"
+        >
+          Limit
+        </label>
+        <br />
+        <input
+          className="input"
+          id="limit"
+          min="0"
+          onChange={[Function]}
+          required={true}
+          type="number"
+        />
+      </div>
+      <button
+        className="button"
+        type="submit"
+      >
+        Add
+      </button>
+    </form>
+  </div>,
+]
+`;
